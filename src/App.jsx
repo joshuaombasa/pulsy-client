@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 
 import './App.css';
+import Hostlayout from './components/Hostlayout';
 import Layout from './components/Layout';
 import About from './components/pages/About';
 import Home from './components/pages/Home';
@@ -20,6 +21,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="vans" element={<Vans />} />
+          <Route  path='host'  element={<Hostlayout/>}/>
         </Route>
       </>
     )
