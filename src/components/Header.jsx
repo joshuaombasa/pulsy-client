@@ -8,6 +8,7 @@ export default function Header() {
       <div className="header-links">
         <NavLink to='about'>About</NavLink>
         <NavLink  to='vans'>Vans</NavLink>
+        <NavLink  to='hosts'>Hosts</NavLink>
       </div>
     </div>
   )
